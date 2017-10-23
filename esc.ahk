@@ -8,19 +8,10 @@ Capslock::Esc
 ;
 
 ; switch to LEFT Multi-desktop
-; Capslock & h:: sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up}
-^#h::sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up}
+^#h::sendevent {LCtrl down}{Lwin down}{Left}{LWin up}{LCtrl up}
 
 ; switch to RIGHT Multi-desktop
-; Capslock & l:: sendevent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-^#l::sendevent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-
-; SHOW all Multi-desktops
-; Capslock & Tab:: sendevent {LWin down}{Tab down}{LWin up}{Tab up}
-
-; ADD new Multi-desktop
-; Capslock & d:: sendevent {LWin down}{LCtrl down}{d down}{LWin up}{LCtrl up}{d up}
+^#l::sendevent {LCtrl down}{Lwin down}{Right}{LWin up}{LCtrl up}
 
 ; CLOSE Multi-desktop
-; Capslock & x:: sendevent {LWin down}{LCtrl down}{F4}{LWin up}{LCtrl up}
-^#x:: sendevent {LWin down}{LCtrl down}{F4}{LWin up}{LCtrl up}
+^#x::sendevent {LCtrl down}{Lwin down}{F4}{LWin up}{LCtrl up}
