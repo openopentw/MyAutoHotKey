@@ -4,6 +4,8 @@ This is my hotkey settings on Windows.
 
 You can simply run `hotkey.exe` to set up the hotkeys.
 
+**NOTE: The hotkeys does NOT work when you are in an app that you start with administration permission. (eg, task manager)**
+
 > However, you have to restart `hotkey.exe` every time you reboot your computer, otherwise the `.exe` will not take effect.
 >
 > Therefore you can add a shortcut of it in the folder `shell:startup`, so that you can have the hotkeys whenevery you boot up your computer.
