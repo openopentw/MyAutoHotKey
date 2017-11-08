@@ -1,17 +1,16 @@
-; cancel Capslock
+; Cancel capslock.
 SetCapsLockState, alwaysoff
-; map Capslock to Esc
+
+; Map capslock to esc.
 Capslock::Esc
 
-;
-; Operation on Multi-desktops on Win10 (Using Capslock)
-;
+; Hotkeys to do operations to multiple desktops on Win10.
 
-; switch to LEFT Multi-desktop
+; Switch to left desktop.
 ^#h::sendevent {LCtrl down}{Lwin down}{Left}{LWin up}{LCtrl up}
 
-; switch to RIGHT Multi-desktop
+; Switch to right desktop.
 ^#l::sendevent {LCtrl down}{Lwin down}{Right}{LWin up}{LCtrl up}
 
-; CLOSE Multi-desktop
+; Close desktop.
 ^#x::sendevent {LCtrl down}{Lwin down}{F4}{LWin up}{LCtrl up}
