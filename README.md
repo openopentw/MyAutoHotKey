@@ -4,7 +4,7 @@ This is my hotkey settings on Windows.
 
 You can simply run `hotkey.exe` to set up the hotkeys.
 
-## my hotkey settings
+## Hotkey Settings
 
 - `CapsLock` works as `ESC`.
 
@@ -18,11 +18,10 @@ You can simply run `hotkey.exe` to set up the hotkeys.
 
 - `Ctrl` + `Win` + `x` can **delete** the current desktop. (vim-style close)
 
-## Usage
+## Installation & Configuration
 
-After cloning this repo, you can simply run `hotkey.exe` to set up the hotkeys.
-
-You can also add a shortcut of it in the folder `shell:startup`, so that you can have the hotkeys every time you boot up your computer.
+- After cloning this repo, you can simply run `hotkey.exe` to set up the hotkeys.
+- You can also add a shortcut of it in the folder `shell:startup`, so that you can have the hotkeys every time you boot up your computer.
 
 **NOTE: The hotkeys does NOT work when you are in an app that you start with administration permission. (eg, task manager)**
 
